@@ -1,0 +1,17 @@
+PROGRAM prog1
+VAR
+a1,a2,a3:INTEGER;
+b1,b2,b3:INTEGER
+BEGIN
+READ(a2);
+READ(a1);
+a3:=(a1+a2)*(a1-a2)+(a1-1)-(a2-2DIV0);
+b1:=2*a3;
+b3:=b1;
+FOR b2:=1 TO b1 DO
+BEGIN
+b3:=b3-2
+END;
+WRITE(b3)
+END.
+

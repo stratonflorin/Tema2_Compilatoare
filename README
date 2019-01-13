@@ -1,4 +1,21 @@
 Instrument de analiza gramaticala
 
-std.sg. Straton Florin-Constantin
+Std.Sg. Straton Florin-Constantin
 grupa C-113A
+
+---------------------------------
+Regulile analizei sunt:
+-numele de program si variabile
+trebuie sa inceapa cu litera mica
+-impartirea la "0" nu este 
+acceptata
+-se tine cont de starile 
+variabilelor:
+	-nedefinite
+	-definite
+	-multidefinite
+	-neinitializate
+	-initializate
+-programul trebuie sa respecte 
+structura impusa
+---------------------------------
